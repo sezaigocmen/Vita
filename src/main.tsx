@@ -17,8 +17,7 @@ const meta: ShowcaseMeta = {
   pageBackground: 'radial-gradient(900px 600px at 15% 15%, #DCEDE8 0%, transparent 60%), radial-gradient(700px 500px at 90% 90%, #F7E6D8 0%, transparent 60%), #F3F7F5',
   designer: 'Sezai Göçmen',
   links: [
-    { label: 'Case study', href: 'https://www.sezaigocmen.com/projects/vita' },
-    { label: 'Behance', href: 'https://www.behance.net/gallery/235737961/Health-Wellness-App-Experience-With-AI-Agent' },
+    { label: 'Full case study', href: 'https://www.sezaigocmen.com/projects/vita' },
   ],
   onReset: resetDemo,
 }

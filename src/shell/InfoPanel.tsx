@@ -66,7 +66,7 @@ export function InfoPanel({ meta }: { meta: ShowcaseMeta }) {
         )}
       </div>
 
-      <p className="text-[12px] text-black/40">Designed by {meta.designer} · Demo data only, stored on this device.</p>
+      <p className="text-[12px] text-black/40">Designed by {meta.designer} · Demo data only.</p>
     </aside>
   )
 }
