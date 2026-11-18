@@ -1,0 +1,55 @@
+@import 'tailwindcss' source('./');
+@import '@fontsource-variable/inter';
+@import './shell/shell.css';
+
+/* ───────────── Vita tasarım token'ları (Figma → Colors/Typography) ───────────── */
+@theme {
+  /* Renkler */
+  --color-brand: #0bb791;       /* ana yeşil: CTA, aktif durumlar, ilerleme */
+  --color-mint: #8ec5b8;        /* yumuşak yeşil: ikincil butonlar */
+  --color-header: #c1ddd8;      /* üst bar zemini */
+  --color-teal: #a2cece;
+  --color-sage: #c3d5c5;
+  --color-cream: #f3e0af;
+  --color-coral: #f3997e;
+  --color-bg: #fcfcfc;          /* sayfa zemini */
+  --color-card: #ffffff;
+  --color-ink: #000000;         /* ana yazı */
+  --color-ink-2: #22272b;       /* ikincil yazı / ikon */
+  --color-muted: #6b6f72;
+  --color-line: #d9d9d9;
+
+  /* Köşe yuvarlaklıkları */
+  --radius-card: 24px;
+  --radius-btn: 20px;
+  --radius-chip: 9px;
+  --radius-sm: 6px;
+
+  /* Gölgeler */
+  --shadow-card: 0 0 1.5px rgb(0 0 0 / 0.45);
+  --shadow-btn: 0 1px 1.5px rgb(0 0 0 / 0.21);
+
+  /* Yazı tipi: iPhone'da SF Pro, diğer cihazlarda Inter */
+  --font-sans: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'SF Pro Display', 'SF Pro', 'Inter Variable', system-ui, sans-serif;
+
+  /* Yazı ölçüleri (en küçük 11px) */
+  --text-caption: 11px;
+  --text-caption--line-height: 13px;
+  --text-footnote: 13px;
+  --text-footnote--line-height: 16px;
+  --text-body: 15px;
+  --text-body--line-height: 20px;
+  --text-callout: 16px;
+  --text-callout--line-height: 21px;
+  --text-title3: 20px;
+  --text-title3--line-height: 24px;
+  --text-title2: 24px;
+  --text-title2--line-height: 29px;
+  --text-title1: 30px;
+  --text-title1--line-height: 36px;
+  --text-large: 50px;
+  --text-large--line-height: 60px;
+
+  --font-weight-medium: 510;
+  --font-weight-semibold: 590;
+}
