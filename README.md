@@ -2,6 +2,7 @@
 
 Live, installable demo of **Vita**, a fitness, nutrition and mindfulness app I designed in Figma — rebuilt as a working web app so you can try the real flows on your phone.
 
+- **Live demo:** [vita.sezaigocmen.com](https://vita.sezaigocmen.com)
 - **Case study:** [sezaigocmen.com/projects/vita](https://www.sezaigocmen.com/projects/vita)
 - **Behance:** [Health & Wellness App Experience with AI Agent](https://www.behance.net/gallery/235737961/Health-Wellness-App-Experience-With-AI-Agent)
 - **Design & build:** Sezai Göçmen
